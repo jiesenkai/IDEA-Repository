@@ -6,7 +6,7 @@ public class test {
         System.out.println("修复bug");
         sayHello();
         service();
-        ByJisenkaiSendNode();
+        ByJiesenkaiSendNode();
     }
     public static void sayHello(){
         System.out.println("hello git");
@@ -14,7 +14,7 @@ public class test {
     public static void service(){
         System.out.println("业务处理代码");
     }
-    public sattic void ByJiesenkaiSendNode(){
-        System.out.println("来自jiesenkai提交的代码")
+    public static void ByJiesenkaiSendNode(){
+        System.out.println("来自jiesenkai提交的代码");
     }
 }
